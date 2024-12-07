@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_2/homepage.dart';
 
 class page2 extends StatelessWidget {
   const page2({super.key});
@@ -22,8 +23,8 @@ child:Container(
       const Text("title",style:TextStyle(
         color: Colors.white, fontSize: 40,
         fontWeight: FontWeight.normal,
-      ),)
-Row(
+      ),),
+      Row(
   mainAxisAlignment: MainAxisAlignment.spaceAround,
 children: [
                   const Icon(Icons.face),
